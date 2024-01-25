@@ -1,0 +1,23 @@
+{
+  "name": "index.html",
+  "version": "1.0.0",
+  "description": "menu describtion",
+  "default": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dir"
+  },
+  "author": "Yousef Salahaldin",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0"
+  },
+  "dependencies": {
+    "core-js": "^3.35.0",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.14.1",
+    "sass": "^1.69.7"
+  }
+}
